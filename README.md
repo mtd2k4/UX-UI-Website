@@ -26,7 +26,7 @@ Website sử dụng **Bootstrap 5** để chia bố cục theo hệ thống lư�
    ```bash
    git clone https://github.com/mtd2k4/uxui-website.git
 
-##👨‍💻 Tác giả
+## 👨‍💻 Tác giả
 - **MaiTienDung – Sinh viên / Frontend Developer**
 - **📧 Email: maitiendung.facebook@gmail.com**
 - **🌐 Facebook: facebook.com/maitiendung.it**
