@@ -1,0 +1,48 @@
+<!--thiết kế 1 bố cục gồm 4 cột có độ rộng bằng nhau, đặt bên trong một container cố định. Từ kích thước màn hình máy tính bảng trở lên (>= 576px), các cột hiển thị
+theo dạng lưới ngang. Khi hiển thị trên thiết bị di động ( màn hình < 576px), các cột sẽ tự động xếp chồng theo chiều dọc để phù hợp với không gian hiển thị hẹp-->
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bố cục 4 cột</title>
+  <style>
+    body{
+      margin:0;
+      font-family:Arial, sans-serif;
+      background:#f9f9f9;
+    }
+    .container{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+      display: grid;
+      gap: 1rem;
+      /* Mặc định mobile: xếp dọc */
+      grid-template-columns: 1fr;
+    }
+    .col{
+      background: #5dd39e;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    /* Từ tablet trở lên (>=576px) thì chia 4 cột ngang */
+    @media (min-width: 576px){
+      .container{
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="col">Cột 1</div>
+    <div class="col">Cột 2</div>
+    <div class="col">Cột 3</div>
+    <div class="col">Cột 4</div>
+  </div>
+</body>
+</html>

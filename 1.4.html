@@ -1,0 +1,62 @@
+<!--sử dụng .container-sm, .container-md, .container-lg, .container-xl để hiển thị các khối nội dung với các container tương ứng và kiểm tra hiển thị ở các kích thước màn hình khác nhau-->
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Container Responsive Demo</title>
+  <style>
+    body{
+      margin:0;
+      font-family:Arial, sans-serif;
+      background:#f4f4f4;
+    }
+    /* Cơ bản cho tất cả container */
+    .container-sm, .container-md, .container-lg, .container-xl {
+      margin: 1rem auto;
+      padding: 1rem;
+      background: #5dd39e;
+      color: #fff;
+      border-radius: 6px;
+      text-align:center;
+      font-weight:bold;
+    }
+
+    /* Kích thước giống Bootstrap */
+    .container-sm { max-width: 540px; }
+    .container-md { max-width: 720px; }
+    .container-lg { max-width: 960px; }
+    .container-xl { max-width: 1140px; }
+
+    /* Cho đẹp một chút */
+    .box{
+      background:#0b0c10;
+      color:#fff;
+      padding:1.5rem;
+      border-radius:8px;
+      margin-top:.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-sm">
+    Container SM (≤ 540px)
+    <div class="box">Nội dung trong container-sm</div>
+  </div>
+
+  <div class="container-md">
+    Container MD (≤ 720px)
+    <div class="box">Nội dung trong container-md</div>
+  </div>
+
+  <div class="container-lg">
+    Container LG (≤ 960px)
+    <div class="box">Nội dung trong container-lg</div>
+  </div>
+
+  <div class="container-xl">
+    Container XL (≤ 1140px)
+    <div class="box">Nội dung trong container-xl</div>
+  </div>
+</body>
+</html>
