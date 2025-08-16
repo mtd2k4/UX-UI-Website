@@ -24,7 +24,7 @@ Website sử dụng **Bootstrap 5** để chia bố cục theo hệ thống lư�
 ## 📖 Hướng dẫn cài đặt & sử dụng
 1. Clone repository:
    ```bash
-   git clone https://github.com/mtd2k4/uxui-website.git
+   git clone https://github.com/mtd2k4/ux-ui-website.git
 
 ## 👨‍💻 Tác giả
 - **MaiTienDung – Sinh viên / Frontend Developer**
