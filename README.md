@@ -12,3 +12,21 @@ Website sử dụng **Bootstrap 5** để chia bố cục theo hệ thống lư�
 - ⚡ Sử dụng **Bootstrap Grid System** để chia bố cục linh hoạt  
 - 🧩 Các component dễ tái sử dụng (navigation, sidebar, footer…)  
 - 🔍 Code rõ ràng, dễ bảo trì và nâng cấp
+
+## 🛠️ Công nghệ sử dụng
+- **HTML5 / CSS3**  
+- **Bootstrap 5** (Grid System, Components, Utilities)  
+- **JavaScript ES6** (hiệu ứng cơ bản)  
+- **Google Fonts / Icons** (nếu có)  
+
+---
+
+## 📖 Hướng dẫn cài đặt & sử dụng
+1. Clone repository:
+   ```bash
+   git clone https://github.com/mtd2k4/uxui-website.git
+
+##👨‍💻 Tác giả
+- **MaiTienDung – Sinh viên / Frontend Developer**
+- **📧 Email: maitiendung.facebook@gmail.com**
+- **🌐 Facebook: facebook.com/maitiendung.it**
